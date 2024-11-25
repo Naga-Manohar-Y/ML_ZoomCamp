@@ -64,5 +64,33 @@ Financial fraud detection is a critical challenge in modern finance and e-commer
 ### Steps to Run Locally
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/Naga-Manohar-Y/ML_ZoomCamp/tree/main
+   cd 07_midterm_project
+   ```
+2. **Install Dependencies**:
+
+```bash
+pip install pipenv
+pipenv install
+```
+This will create a virtual environment and install all required dependencies for the project.
+3. **Train the Model**:
+
+```bash
+python train.py
+```
+This script will train the model using the training dataset, and save the model to a binary file (XGBoost_model.bin) which can then be used for predictions.
+4. **Build the Docker Image**:
+
+After ensuring that the project files are in place, build the Docker image by running the following command in the project directory:
+```bash
+docker build -t fraud-detection:latest .
+```
+5. **Run the Docker Container**:
+
+Once the Docker image is built, you can run the container:
+```bash
+docker run -p 9696:9696 fraud-detection:latest
+This will run the application inside a Docker container and map port 9696 from the container to your local machine.
+```
+
