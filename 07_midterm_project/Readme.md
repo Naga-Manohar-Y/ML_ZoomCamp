@@ -40,11 +40,11 @@ Financial fraud detection is a critical challenge in modern finance and e-commer
 
 - **Pipfile** and **Pipfile.lock** are used to define and lock the Python dependencies for the project.
 - **Key Dependencies**:
-   ✅ scikit-learn
-   ✅ XGBoost
-   ✅ Flask
-   ✅ pandas
-   ✅ numpy
+   ✅ scikit-learn 
+   ✅ XGBoost 
+   ✅ Flask 
+   ✅ pandas 
+   ✅ numpy 
 
 ---
 
@@ -57,7 +57,7 @@ Financial fraud detection is a critical challenge in modern finance and e-commer
 
 ---
 
-## How to Run It
+## 🏃 How to Run It
 
 ### Prerequisites
 - Python 3.12+
