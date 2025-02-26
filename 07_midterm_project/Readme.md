@@ -9,7 +9,9 @@ This project focuses on building a machine learning model to detect fraudulent t
 Financial fraud detection is a critical challenge in modern finance and e-commerce. The dataset used in this project is synthetic and includes a variety of transactional patterns that mimic real-world scenarios. Features such as transaction amount, geographic location, card type, and device type were analyzed to predict whether a transaction is fraudulent.
 
 ---
-
+## Architecture Overview
+![Architecture diagram](https://github.com/Naga-Manohar-Y/ML_ZoomCamp/blob/main/07_midterm_project/FD_architecture.png)
+---
 ## Project Workflow
 
 ### 1. **Exploratory Data Analysis (EDA)**
