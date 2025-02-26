@@ -77,12 +77,14 @@ pip install pipenv
 pipenv install
 ```
 This will create a virtual environment and install all required dependencies for the project.
+
 3. **Train the Model**:
 
 ```bash
 python train.py
 ```
 This script will train the model using the training dataset, and save the model to a binary file (XGBoost_model.bin) which can then be used for predictions.
+
 4. **Build the Docker Image**:
 
 After ensuring that the project files are in place, build the Docker image by running the following command in the project directory:
